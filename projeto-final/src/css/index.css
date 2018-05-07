@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#piano{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+}
+
+#piano > .tecla{
+    background: #ff7675;
+    flex: 1;
+    height: 200px;
+    margin: 2px;
+}
+
+
+#piano > .tecla.clicado{
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+}
