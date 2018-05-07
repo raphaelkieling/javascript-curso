@@ -8,9 +8,6 @@ const addAudioEventList = audio => list => [...list, createAudioEvent(audio)];
 const playSound = sound => sound.play() && false;
 const timing = (ms, fn) => setTimeout(() => fn(), ms);
 
-// const removeClassInTiming = className => new Promise((resolvemreject)=>{
-
-// })
 
 const listeningClick = (tecla, index) => {
     let audio = tecla.querySelector('audio');
