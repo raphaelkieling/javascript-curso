@@ -1,11 +1,14 @@
 # Curso Javascript ( Presencial ) (12-19/05/18)
 >Curso que será dado nos dias 12-19/05/2018
 ## Cronograma
-- O que é javascript?
-- O que é github?
-- Como eles se integram, dando fork no nosso projeto do github?
+- [O que é javascript?](#o-que-e-javascript?)
+- O que é Ecmascrit?
 - Funções básicas do javascript e seus tipos de variáveis
 - Hoisting?
+- TDZ - (temporal dead zone)
+- ASI - (automatic semicolon)
+- [O que é git e github?](#o-que-e-git-e-github?)
+- Como eles se integram, dando fork no nosso projeto do github?
 - Como assim tudo objeto?
 - Porque falamos que javascript tem paradigma Funcional?
 - O que é clojure?
@@ -67,7 +70,20 @@ Javascript também é mais foda quando junto com API's. Temos 2 API's principais
     - Twitter
     - Google
     - Spotify
+---
+## O que é git e github? :pill:
+> Em 2005 o relacionamento entre a comunidade que desenvolvia o kernel do linux e a empresa que desenvolvia comercialmente o BitKeeper ( um sistema de controle de versão pago ) se desfez, e o status de "não precisa pagar" foi revogado. Isso levou a comunidade do linux desenvolver um sistema de controle de versão com foco em velocidade, design simples, suporte robusto, totalmente distribuído e capaz lidade com grandes projetos.
 
+Um sistema de controle de versão! Fácil?
+### Snapshot
+O git sempre que rola um commit do projeto, é como se ele tirasse uma foto de todos os seus arquivos aquele momento e armazenasse uma referência. Ele não salva o que não foi alterado.
+<p align="center">
+  <img src="https://git-scm.com/figures/18333fig0105-tn.png">
+  <br>
+  Como o git armazena seus snapshots
+</p>
+
+---
 ## Hoisting
 
 Em JavaScript, funções e variáveis são hoisted (ou "levados ao topo"). Hoisting é um comportamento do JavaScript de mover declarações para o topo de um escopo (o escopo global ou da função em que se encontra).
