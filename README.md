@@ -23,14 +23,13 @@
 - Entendo promessas!
 - Usando uma promessa com vários then encadeados para uma consulta no CEP
 - Refatorando pra um conceito mais funcional
-- Usando composição de funções e mônadas!
 - Criando outra branch!
 - Começando a criar nosso teclado musical com javascript puro!
 - O rei do DOM! DOM?!
 - Como javascript utiliza o DOM
 - Fazendo um evento de click
 - Modificando a imagem
-- Fazendo um som hehe
+- Fazendo um som
 
 ### Assuntos avançados
 - Currying?
@@ -82,6 +81,12 @@ O git sempre que rola um commit do projeto, é como se ele tirasse uma foto de t
   <br>
   Como o git armazena seus snapshots
 </p>
+
+### Fluxo do funcionamento
+![fluxo](https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963)
+
+
+### d
 
 ---
 ## Hoisting
