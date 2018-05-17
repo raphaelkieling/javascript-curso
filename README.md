@@ -2,7 +2,7 @@
 >Curso que será dado nos dias 12-19/05/2018
 ## Cronograma
 - [O que é javascript?](#o-que-e-javascript?)
-- O que é Ecmascrit?
+- [O que é Ecmascrit?](#o-que-e-ecmascrit?)
 - Funções básicas do javascript e seus tipos de variáveis
 - Hoisting?
 - TDZ - (temporal dead zone)
@@ -13,7 +13,7 @@
 - Porque falamos que javascript tem paradigma Funcional?
 - O que é clojure?
 - Compondo funções
-- Nosso primeiro pacote. ParetoJS
+- Nosso primeiro pacote. JQuery!!!
 - Criando nossa composição com o pareto!
 - Entendo callbacks e recursividade
 - Map, filter, reduce e forEach?
@@ -43,21 +43,28 @@
 ## O que é javascript?
 Javascript é uma linguagem de programação não tipada e compilada que permite implementar conteúdo complexo dentro das paǵinas da internet como um gráfico, mapas ou HTML dinâmico.
 
-> 1995 Netscape viu que precisavam de mais dinamismo nas páginas como verificar o que os usuários digitavam nos campos HTML. Brendan Eich escreveu o protótipo da linguagem em 10 dias para colocar ela na versão 2.0B3 Navigator no final de novembro de 1995. 
+    1995 Netscape viu que precisavam de mais dinamismo nas páginas como verificar o que os usuários digitavam nos campos HTML. Brendan Eich escreveu o protótipo da linguagem em 10 dias para colocar ela na versão 2.0B3 Navigator no final de novembro de 1995. 
 
 ![Brendan Eich](https://upload.wikimedia.org/wikipedia/commons/0/09/BEich.jpg)
 
 Exemplo de código:
 
 ```javascript
-var nome = document.querySelector('#nome');
+var nome = 'Javascript GOD'
+var lista = [1,2,3]
 
-nome.addEventListener('click', atualizarNome);
 
-function atualizarNome() {
-  var nomeNovo = prompt('Insira um novo nome');
-  nome.textContent = 'Jogador 1: ' + nomeNovo;
+for(let i=0;i < lista.length ;i++){
+    console.log(lista[i])
 }
+
+function atualizarNome(nomeParametro) {
+  nomeParametro = 'Javacript é show'
+  return nomeParametro;
+}
+
+
+nome = atualizarNome(nome)
 ```
 
 Javascript também é mais foda quando junto com API's. Temos 2 API's principais.
@@ -70,11 +77,32 @@ Javascript também é mais foda quando junto com API's. Temos 2 API's principais
     - Google
     - Spotify
 ---
+
+## O que é ECMAScript? :alien:
+
+Provavelmente tu já ouviu falar sobre ECMAScript se já ouvir falar de Javascript. Antes que o Javascript se tornasse popular e começasse a seguir padrões e normativas, os criadores se associaram ao ECMA ( European Computer Manufactures Association ) em 1996.
+
+Como Javascript já era patenteado pea Sum atual Oracle, optou por chamar de ECMAScript.
+
+MAS como javascript já era muito popular na comunidade, a linguagem é chamada assim até hoje. Atualmente o ECMA serve para a padronização da linguagem com grupo chamado [ECMA-262](https://www.ecma-international.org/publications/standards/Ecma-262.htm) lá dentro. 
+
+Até hoje tivemos várias versões:
+- ECMAScript 1 - **1997** - Brandon apresenta a linguagem já com padrões definidos pela ECMA.
+- ECMAScript 2 - **1997** - Para se adequadr à ISO/IEC 16262.
+- ECMAScript 3 - **1999** - while, exceções, dentre outros.
+- ECMAScript 4 - **2008** - Desenvolvimento baseado em ML (Meta Language), uma linguagem de programação funcional, como teve MUITAS mudanças e acabou saindo do padrão, optaram continuar isso no ECMAScript 3
+- ECMAScript 5 - **2012** - Recursos valiosos como JSON, métodos avançados de manipulação de array, getters e setter, entre outros. 
+- ECMAScript 6 - **2015** - Reflection, collections, binary data, let e const, default parameters,destructuring entre muitas outras coisas.
+- ECMAScript 7 - **2016** - também conhecida como ECMAScript 2016 (ano da sua conclusão), possui como operadores exponenciais, dentre outros.
+
+
+
+---
 ## O que é git e github? :pill:
-> Em 2005 o relacionamento entre a comunidade que desenvolvia o kernel do linux e a empresa que desenvolvia comercialmente o BitKeeper ( um sistema de controle de versão pago ) se desfez, e o status de "não precisa pagar" foi revogado. Isso levou a comunidade do linux desenvolver um sistema de controle de versão com foco em velocidade, design simples, suporte robusto, totalmente distribuído e capaz lidade com grandes projetos.
+    Em 2005 o relacionamento entre a comunidade que desenvolvia o kernel do linux e a empresa que desenvolvia comercialmente o BitKeeper ( um sistema de controle de versão pago ) se desfez, e o status de "não precisa pagar" foi revogado. Isso levou a comunidade do linux desenvolver um sistema de controle de versão com foco em velocidade, design simples, suporte robusto, totalmente distribuído e capaz lidade com grandes projetos.
 
 Um sistema de controle de versão! Fácil?
-### Snapshot
+## Snapshot
 O git sempre que rola um commit do projeto, é como se ele tirasse uma foto de todos os seus arquivos aquele momento e armazenasse uma referência. Ele não salva o que não foi alterado.
 <p align="center">
   <img src="https://git-scm.com/figures/18333fig0105-tn.png">
@@ -82,11 +110,18 @@ O git sempre que rola um commit do projeto, é como se ele tirasse uma foto de t
   Como o git armazena seus snapshots
 </p>
 
-### Fluxo do funcionamento
+## Integridade
+Tudo no git tem uma hash própria usando o hash SHA-1 sendo assim **impossível** fazer qualquer modificação em algum arquivo que o git não fique sabendo.
+
+## Estados
+Três estados fundamentais
+- commited (consolidade)
+- modified (modificado)
+- staged (preparado)
+
+## Fluxo do funcionamento
 ![fluxo](https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963)
 
-
-### d
 
 ---
 ## Hoisting
