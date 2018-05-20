@@ -1,5 +1,30 @@
 # Curso Javascript ( Presencial ) (12-19/05/18)
 >Curso que será dado nos dias 12-19/05/2018
+## Exercícios Aula 01
+    As respostas devem ser colocadas em um arquivo para cada uma delas assim com o nome 01.js, 02.js, 03.js, ... , adicionar, commitar e dar push pra mim poder olhar no repositório de voces
+
+
+- (01) criar uma listagem de palavras
+- (02) fazer um for que lista cada palavra
+- (03) trocar cada palavra da lista pela mesma palavra mais "You WIN!" exemplo de como ela vai ficar lembrando que não pode ser trocado na mão a palavra YOU WIN tem que ser colocada dentro do FOR em cada uma delas
+```javascript
+let lista = ['palavra 1 YOU WIN!','palavra 2 YOU WIN!']
+```
+- (04) criar fazer um objeto chamado Pessoa com os atributos ,nome e idade e fazer um IF para verificar se a idade dele é maior que 18 se for maior que 18 mostrar no console.log "Você já pode comprar bebidas alcoólicas!"
+- (05) criar um função que soma 4 números e printas o resultado no console.log
+- (06) Responder as seguintes perguntas
+    - Porque utilizamos funções na programação?
+    - Porque existem os callbacks?
+- (07) criar um função que recebe idade e através de um callback retorna se ele é maior ou não de idade
+```javascript
+eMaiorDeIdade(idade,function(maiorOuNao){
+    if(maiorOuNao){
+        console.log('Sou maior')
+    }else{
+        console.log('Sou menor')
+    }
+})
+```
 ## Cronograma
 - [O que é javascript?](#o-que-e-javascript?)
 - [O que é Ecmascrit?](#o-que-e-ecmascrit?)
