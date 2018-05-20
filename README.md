@@ -10,8 +10,8 @@
 ```javascript
 let lista = ['palavra 1 YOU WIN!','palavra 2 YOU WIN!']
 ```
-- (04) criar fazer um objeto chamado Pessoa com os atributos ,nome e idade e fazer um IF para verificar se a idade dele é maior que 18 se for maior que 18 mostrar no console.log "Você já pode comprar bebidas alcoólicas!"
-- (05) criar um função que soma 4 números e printas o resultado no console.log
+- (04) criar um objeto chamado Pessoa com os atributos ,nome e idade e fazer um IF para verificar se a idade dele é maior que 18 se for maior que 18 mostrar no console.log "Você já pode comprar bebidas alcoólicas!"
+- (05) criar um função que soma 4 números e printar o resultado no console.log
 - (06) Responder as seguintes perguntas
     - Porque utilizamos funções na programação?
     - Porque existem os callbacks?
@@ -121,6 +121,23 @@ Até hoje tivemos várias versões:
 - ECMAScript 7 - **2016** - também conhecida como ECMAScript 2016 (ano da sua conclusão), possui como operadores exponenciais, dentre outros.
 
 
+
+---
+## Funções básicas do javascript e seus tipos de variáveis
+```javascript
+var nome01 = "Dieguinho"; //sofre hoisting e não pega
+let nome02 = "José"; //não sofre hoisting
+const nome03 = "Gasolin"; //não sofre hoisting e é constante ou seja não pode ser alterado de novo
+```
+
+|VisualG|Javascript|
+|-------|----------|
+| SE | IF|
+|SE NÃO| ELSE|
+|ESCOLHA|SWITCH|
+|CASO|CASE|
+|PARA|FOR|
+|ESCREVA|CONSOLE.LOG|
 
 ---
 ## O que é git e github? :pill:
